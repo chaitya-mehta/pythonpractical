@@ -1,10 +1,11 @@
+#Iterative Method
 a=int(input("Enter The Number"))
 fact=1
 while(a>0):
     fact=fact*a
     a-=1
 print("Factorial is ",fact)
-# Recursion method 
+# Recursion Method 
 a=int(input("Enter The Number"))
 def factorial_recursive(a):
     if a<=1:

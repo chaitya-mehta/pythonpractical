@@ -1,0 +1,19 @@
+{
+    "name":"Chaitya",
+    "age":19,
+    "Numbers":[
+       {
+          "type":"Office",
+          "number":"9999999999"
+       },
+       {
+          "type":"personal",
+          "number":"9191919191"
+       }
+    ],
+    "Department":"I.T.",
+    "Sports":[
+       "Chess",
+       "Cricket"
+    ]
+ }

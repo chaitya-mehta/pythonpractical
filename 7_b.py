@@ -1,0 +1,1 @@
+# Write a program that prompts the user to enter a number. If the number is positive or zeroprint it, otherwise raise an exception. A message “Code execution completed” should be  displayed in both the cases, at the end of the execution.

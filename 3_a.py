@@ -1,15 +1,23 @@
-#Iterative Method
-a=int(input("Enter The Number"))
-fact=1
-while(a>0):
-    fact=fact*a
-    a-=1
-print("Factorial is ",fact)
-# Recursion Method 
-a=int(input("Enter The Number"))
-def factorial_recursive(a):
-    if a<=1:
-        return 1 
+sentence = input("Enter the sentence: ")
+d = 0
+u = 0
+l = 0
+space = 0
+symbol = 0
+for s in sentence:
+    if s.isdigit():
+        d = d+1
+    elif s.isupper():
+        u = u+1
+    elif s.islower():
+        l = l+1
+    elif s.isspace():
+        space = space + 1
     else:
-        return a*factorial_recursive(a-1)
-print("The Factorial Of Given Number is",factorial_recursive(a))
+        symbol = symbol + 1
+print("Digit: ", d)
+print("letters: ", len(sentence))
+print("Uppercase: ", u)
+print("Lowercase: ", l)
+print("Space: ", space)
+print("Extra symbol: ", symbol)

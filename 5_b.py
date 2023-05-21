@@ -1,8 +1,7 @@
-l1=['chaitya','abhi','smit']
-l2=[1,2,3]
-#method 1
-d=dict(zip(l2,l1))
+#5_b: To invert keys and values of dict
+d = {1: 'abhi', 2: 'magan', 3: 'Chhagan'}
+#l1 = d.keys()
+#l2 = d.values()
+#d = dict(zip(d.values(), d.keys()))
+d = dict(map(reversed, d.items()))
 print(d)
-#method 2
-a=dict(map(reversed,d.items()))
-print(a)
